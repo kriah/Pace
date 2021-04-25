@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.sidenavbar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #97D4E7;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 75px;
+}
+
+#navProfile {
+  line-height: 90px;
+}
+
+#navProfilePic {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: black;*/
+    background-color: #294667;
+    display: inline-block;
+    text-align: left;
+}
+
+.sidenavbar a {
+  width: 432px;
+  /*height: 70px;*/
+  line-height: 70px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 33px;
+  color: #000000;;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenavbar a:hover{
+  background-color: #89BFCF;
+}
+
+.sidenavbar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.openbtn:hover {
+  background-color: #444;
+  color: white;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.pagetitle {
+  padding-left: 25px;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.resourcelabel {
+  color: #282828;
+}
+
+table, th, td {
+  color: #565454;
+  margin-left: 50px;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+}
